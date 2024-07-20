@@ -12,5 +12,5 @@ RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
 RUN mkdir /Advance-filter-bot
 WORKDIR /Advance-filter-bot
-COPY . /bot.py
+COPY . /Advance-filter-bot
 CMD ["python", "bot.py"]
